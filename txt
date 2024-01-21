@@ -1,0 +1,8 @@
+git config --global user.name "TU NOMBRE"
+git config --global user.email "2021030269@upsin.edu.mx"
+git init
+git remote add origin "TU URL DE GIT"
+git init
+git add .
+git commit -m "EL COMMIT"
+git push -u origin master

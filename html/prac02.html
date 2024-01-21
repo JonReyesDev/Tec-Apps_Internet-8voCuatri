@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>PRUEBA</title>
+</head>
+<body>
+    <center>
+        <header>
+            <h2>Peticion de datos usando AJAX</h2>
+        </header>
+        <h3><font style="font-family: 'content'; font-size: 23px;">Ingrese un ID del 1 al 100</font></h3>
+        <label for="inputID"><font style="font-family: 'content'; font-weight: bold;">ID a consultar:</font></label>
+        <input type="text" id="inputID">
+        <button id="btnCargar">Cargar información</button>
+        <button id="btnLimpiar">Limpiar</button>
+    </center>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th class="columna1">ID Usuario</th>
+                <th class="columna2">ID </th>
+                <th class="columna3">Titulo</th>
+            </tr>
+        </thead>
+
+        <tbody id="lista"></tbody>
+    </table>
+
+    <script src="/js/app2.js"></script>
+</body>
+</html>

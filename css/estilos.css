@@ -1,0 +1,89 @@
+header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 15%;
+    font-size: 20px;
+    font-family: 'header';
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+
+}
+
+th {
+    background-color: #e0dee9;
+
+}
+
+.columna1 {
+    width: 20%;
+
+}
+
+.columna2 {
+    width: 20%;
+
+}
+
+.columna3 {
+    width: 60%;
+
+}
+
+
+#btnCargar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    height: 35px;
+}
+
+#btnCargar:hover {
+    background-color: green;
+    color: white;
+}
+
+#btnLimpiar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    height: 35px;
+}
+
+#btnLimpiar:hover {
+    background-color: red;
+    color: white;
+}
+
+@font-face {
+    font-family: 'header';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-600-Semi.ttf') format(TrueType);
+  }
+
+  @font-face {
+    font-family: 'content';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-300-Light.ttf') format(TrueType);
+  }
+
+
