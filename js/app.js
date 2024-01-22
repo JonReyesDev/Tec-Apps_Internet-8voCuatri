@@ -26,10 +26,10 @@ document.getElementById("btnCargar").addEventListener("click", function(){
     hacerPeticion();
 });
 
-document.getElementById("btnLimpiar").addEventListener("Click", function(){
+document.getElementById("btnLimpiar").addEventListener("click", function() {
     let res = document.getElementById("lista");
-    res.innerHTML="";
-})
+    res.innerHTML = "";
+});
 
 
 
