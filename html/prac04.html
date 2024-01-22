@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/users.css">
-    <title>Practica 03 </title>
+    <link rel="stylesheet" href="/css/searchUsers.css">
+    <title>Practica 04</title>
 </head>
 <body>
     <center>
         <header>
-            <h2>Peticion de Usuarios</h2>
+            <h2>PETICION DE USARIOS POR ID</h2>
         </header>
         <br>
 
+        <label for="inputID"><font style="font-family: 'content'; font-weight: bold;">Buscar por ID:</font></label>
+        <input type="text" id="inputID" />
         <button id="btnCargar">Cargar informacion</button>
         <button id="btnLimpiar">Limpiar</button>
     </center>
@@ -22,7 +24,7 @@
         <thead>
             <tr>
                 <th class="columna1">ID</th>
-                <th class="columna2">Nombre </th>
+                <th class="columna2">Nombre</th>
                 <th class="columna3">Usuario</th>
                 <th class="columna4">Email</th>
                 <th class="columna5">Direccion</th>
@@ -35,8 +37,6 @@
         <tbody id="lista"></tbody>
     </table>
 
-    
-    <script src="/js/pr.js"></script>
+    <script src="/js/searchUsers.js"></script>
 </body>
 </html>
-
