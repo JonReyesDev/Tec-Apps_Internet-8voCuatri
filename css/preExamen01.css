@@ -1,0 +1,68 @@
+header{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(105, 25, 208);
+    width: 100%;
+    color: white;
+    height: 15%;
+    font-size: 20px;
+    font-family: 'header';
+}
+
+
+.info-box {
+    border: 3px solid lightgray;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    font-family: 'content';
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#btnLimpiar,
+#btnCargar {
+    /* Estilos para los botones */
+    background-color: rgb(105, 25, 208);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    height: 45px;
+}
+
+#btnLimpiar:hover {
+    background-color: red;
+    color: white;
+}
+
+#btnCargar:hover {
+    background-color: green;
+    color: white;
+}
+
+#inputID {
+    padding: 9px;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: 'header';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-600-Semi.ttf') format(TrueType);
+  }
+
+  @font-face {
+    font-family: 'content';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-300-Light.ttf') format(TrueType);
+  }
+
+
